@@ -9,15 +9,14 @@ int main()
 	cout<<"請輸入數字";
     cin>>num;
     for(int i=2;i<num;i++){
-    	if(num/i==1){
-			cout<<"是質數"<<endl;
-			break; 
+    	if(num%i==0 && num/i != 1){
+			cout<<"不是質數"<<endl;
+			break;
 		}
 		else{
-			cout<<"不是質數"<<endl;
-			break; 	
+		cout<<"是質數"<<endl;
+		break;	
 		}
-		
 		
 	}
 	system("pause");//呼叫內定函式
