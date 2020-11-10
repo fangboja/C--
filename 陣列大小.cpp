@@ -1,18 +1,17 @@
-#include <iostream> //¤Ş¤J C++ ¼ĞÀYÀÉ
-#include <stdlib.h> //³o¤@¤Ş¤J¼ĞÀYÀÉ¤]¥i¬Ù²¤¡A¤]¨Ç½sÄ¶¾¹·|¦Û°Ê¥[¤J
+#include <iostream> //å¼•å…¥ C++ æ¨™é ­æª”
+#include <stdlib.h> //é€™ä¸€å¼•å…¥æ¨™é ­æª”ä¹Ÿå¯çœç•¥ï¼Œä¹Ÿäº›ç·¨è­¯å™¨æœƒè‡ªå‹•åŠ å…¥
 #include<stdio.h>
-using namespace std;//C++©R¦WªÅ¶¡
-//¥D¨ç¦¡(main function)
+using namespace std;//C++å‘½åç©ºé–“
+//ä¸»å‡½å¼(main function)
 int main()
 {	
 	int a[]={1,50,20,6,30};
 	int totalsize=sizeof(a);
 	int onesize=sizeof(a[0]);
 	int b=totalsize/onesize;
-	cout<<"°}¦Cªº¤j¤p¬°:"<<totalsize<<",¤@­Ó¤¸¯Àªº¤j¤p¬O"<<onesize;
-	cout<<",°}¦Cªº¼Æ¶q¬O"<<b<<endl;
-	//int onesize=sizeof[a[0]];
-	system("pause");//©I¥s¤º©w¨ç¦¡
-    return 0; //ªğ¦^¨Ã¶Ç¦^0
+	cout<<"é™£åˆ—çš„å¤§å°ç‚º:"<<totalsize<<",ä¸€å€‹å…ƒç´ çš„å¤§å°æ˜¯"<<onesize;
+	cout<<",é™£åˆ—çš„æ•¸é‡æ˜¯"<<b<<endl;
+	system("pause");//å‘¼å«å…§å®šå‡½å¼
+    return 0; //è¿”å›ä¸¦å‚³å›0
 }
 
